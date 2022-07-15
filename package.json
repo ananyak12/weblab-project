@@ -1,9 +1,6 @@
 {
   "name": "ananya",
   "version": "1.0.0",
-  "engines": {
-    "node": "16.16.0"
-  },
   "description": "",
   "main": "script1.js",
   "scripts": {
