@@ -74,7 +74,8 @@ app.post("/",(req,res)=>{
     await logList.insertOne({response});
   }
 })
-app.listen(3000)
+const PORT = process.env.PORT || 3000;
+app.listen("port",PORT);
 /*const userSchema = new mongoose.Schema({
   item: String,
 });
